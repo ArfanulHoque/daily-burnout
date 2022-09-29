@@ -6,6 +6,7 @@ import './Exercise.css'
 const Exercise = () => {
 
      const [exercises, setExercises] = useState([]);
+     const [count, setCount] = useState([]);
 
     useEffect(() =>{
         fetch('data.json')
@@ -13,6 +14,11 @@ const Exercise = () => {
         .then(data => setExercises(data))
     }, [])
 
+    const handleAddToCount = (exercise) =>{
+        console.log(exercise);
+        const newCount =[...count, exercise]
+        setCount(newCount)
+    }
 
     return (
         <div>
@@ -23,6 +29,7 @@ const Exercise = () => {
                  exercises.map(exercise=> <Activities
                  key={exercise.id}
                  exercise={exercise}
+                 handleAddToCount={handleAddToCount}
                  ></Activities>)
              }
             </div>

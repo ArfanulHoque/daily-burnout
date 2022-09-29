@@ -44,11 +44,11 @@ const Count = () => {
 <div className="excercise-box"> 
 <div className='exercise-time'> 
 <p>Exercise time</p> 
-<p><span></span> secound</p> 
+<p><span>0</span> secound</p> 
 </div> 
 <div className='break-time'> 
 <p>Break time</p> 
-<p><span></span> secound</p> 
+<p><span>0</span> secound</p> 
 </div> 
 </div> 
 <button>Activity Completed</button> 

@@ -2,7 +2,9 @@ import React from 'react';
 import './Activities.css'
 
 const Activities = (props) => {
-    const {img, name,description, age, time,} = props.exercise
+    const {exercise, handleAddToCount} = props
+    const {img, name,description, age, time,} = exercise
+
     return (
     <div className='activity-cart'>
             <div className='activity-info'>
@@ -12,7 +14,7 @@ const Activities = (props) => {
            <p><small>For Age: {age}</small></p>
            <h5>Time required: {time}</h5>
         </div>
-        <button className='btn-add-list'>
+        <button onClick={() => handleAddToCount(exercise)} className='btn-add-list'>
             <p>Add to list</p>
         </button>
     </div>
