@@ -100,9 +100,7 @@ p {
     display: flex;
     flex-direction: row;
   }
-  .user-info {
-    display: none;
-  }
+
   .break {
     padding: 10px 20px;
   }
@@ -130,9 +128,7 @@ p {
     justify-content: center;
     align-items: center;
   }
-  .user-info {
-    display: none;
-  }
+
   .break-div {
     margin-top: 0px;
     text-align: center;
