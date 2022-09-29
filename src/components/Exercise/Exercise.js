@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react';
+import Activities from '../Activities/Activities';
+import Count from '../Count/Count';
 import './Exercise.css'
 
 const Exercise = () => {
 
-     const [exercise, setExercise] = useState([]);
+     const [exercises, setExercises] = useState([]);
 
     useEffect(() =>{
         fetch('data.json')
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => setExercises(data))
     }, [])
 
 
@@ -18,11 +20,14 @@ const Exercise = () => {
             <div className='exercise-container'>
             <div className="exercise-formations">
              {
-                
+                 exercises.map(exercise=> <Activities
+                 key={exercise.id}
+                 exercise={exercise}
+                 ></Activities>)
              }
             </div>
             <div className="count-container">
-<h4>Count Area</h4>
+              <Count></Count>
             </div>
             </div>
         </div>
