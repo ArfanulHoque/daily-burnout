@@ -1,50 +1,50 @@
 [
-    {
-      "id": "6334b0085e067821ffb06838",
-      "description": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease.",
-      "time": "30s",
-      "img": "https://static01.nyt.com/images/2018/09/18/well/family/sub18weight/sub18weight-superJumbo.jpg",
-      "age": "20-25",
-      "name": "Dumbbell"
-    },
-    {
-      "id": "6334b008a52fb988418390b0",
-      "description": "For the body to be healthy and fit, physical activity is required. Cycling regularly is one of the best ways to reduce your risk of health problems",
-      "time": "45s",
-      "img": "https://media.istockphoto.com/photos/fitness-machine-at-home-woman-biking-on-indoor-stationary-bike-for-picture-id1221025222?k=20&m=1221025222&s=612x612&w=0&h=ru2sZp8Lgq3AXCCeQ_AEIU2f4S-qklOxgBc3kkWjFt8=",
-      "age": "20-25",
-      "name": "Cycling"
-    },
-    {
-      "id": "6334b008407a5bf039792db1",
-      "description": "The lat pulldown is a great upper body exercise that builds muscle in the back, shoulders, and arms.",
-      "time": "35s",
-      "img": "https://media.istockphoto.com/photos/fitness-muscular-man-with-naked-torso-working-out-in-lat-pulldown-picture-id1289410132?k=20&m=1289410132&s=612x612&w=0&h=7Ft3C4k18UOMUtK0ywqRia0o2bUcz5y_mfX1HMGcTvM=",
-      "age":  "'20-25'",
-      "name": "Pull Down"
-    },
-    {
-      "id": "6334b008ab4a8bf0758ad56b",
-      "description": "A pull-up or chin-up forces your body to use and engage pretty much every muscle in your upper body.",
-      "time": "40s",
-      "img": "https://img.freepik.com/free-photo/young-powerful-sportsman-training-push-ups-dark-wall_176420-537.jpg?w=2000",
-      "age":  "20-25",
-      "name": "Push Ups"
-    },
-    {
-      "id": "6334b00810df7dcd6116b3ad",
-      "description": "The classic ab exercises, situps, involve lying on your back and lifting up your torso. They strengthen the core-stabilizing abdominal muscles through your body weight",
-      "time": "30s",
-      "img": "https://www.foodspring.be/en/magazine/wp-content/uploads/2020/11/Sit-ups-Endposition-%C2%A9Geber86.jpg",
-      "age":  "20-25",
-      "name": "Sit Ups"
-    },
-    {
-      "id": "6334b00810df7dcd6116b3a9",
-      "description": "Running is a great exercise for the heart. Over time, it helps your heart pump more efficiently. Running keeps the arteries elastic so blood flows smoothly.",
-      "time": "35s",
-      "img": "https://img.freepik.com/premium-photo/male-athlete-workout-running-exercise-machine-active-sport-training-gym_266732-208.jpg?w=2000",
-      "age":  "20-25",
-      "name": "Running"
-    }
-  ]
+  {
+    "id": "6334b0085e067821ffb06838",
+    "description": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease.",
+    "time": 30,
+    "img": "https://static01.nyt.com/images/2018/09/18/well/family/sub18weight/sub18weight-superJumbo.jpg",
+    "age": "20-25",
+    "name": "Dumbbell"
+  },
+  {
+    "id": "6334b008a52fb988418390b0",
+    "description": "For the body to be healthy and fit, physical activity is required. Cycling regularly is one of the best ways to reduce your risk of health problems",
+    "time": 45,
+    "img": "https://media.istockphoto.com/photos/fitness-machine-at-home-woman-biking-on-indoor-stationary-bike-for-picture-id1221025222?k=20&m=1221025222&s=612x612&w=0&h=ru2sZp8Lgq3AXCCeQ_AEIU2f4S-qklOxgBc3kkWjFt8=",
+    "age": "20-25",
+    "name": "Cycling"
+  },
+  {
+    "id": "6334b008407a5bf039792db1",
+    "description": "The lat pulldown is a great upper body exercise that builds muscle in the back, shoulders, and arms.",
+    "time": 35,
+    "img": "https://media.istockphoto.com/photos/fitness-muscular-man-with-naked-torso-working-out-in-lat-pulldown-picture-id1289410132?k=20&m=1289410132&s=612x612&w=0&h=7Ft3C4k18UOMUtK0ywqRia0o2bUcz5y_mfX1HMGcTvM=",
+    "age": "'20-25'",
+    "name": "Pull Down"
+  },
+  {
+    "id": "6334b008ab4a8bf0758ad56b",
+    "description": "A pull-up or chin-up forces your body to use and engage pretty much every muscle in your upper body.",
+    "time": 40,
+    "img": "https://img.freepik.com/free-photo/young-powerful-sportsman-training-push-ups-dark-wall_176420-537.jpg?w=2000",
+    "age": "20-25",
+    "name": "Push Ups"
+  },
+  {
+    "id": "6334b00810df7dcd6116b3ad",
+    "description": "The classic ab exercises, situps, involve lying on your back and lifting up your torso. They strengthen the core-stabilizing abdominal muscles through your body weight",
+    "time": 30,
+    "img": "https://www.foodspring.be/en/magazine/wp-content/uploads/2020/11/Sit-ups-Endposition-%C2%A9Geber86.jpg",
+    "age": "20-25",
+    "name": "Sit Ups"
+  },
+  {
+    "id": "6334b00810df7dcd6116b3a9",
+    "description": "Running is a great exercise for the heart. Over time, it helps your heart pump more efficiently. Running keeps the arteries elastic so blood flows smoothly.",
+    "time": 35,
+    "img": "https://img.freepik.com/premium-photo/male-athlete-workout-running-exercise-machine-active-sport-training-gym_266732-208.jpg?w=2000",
+    "age": "20-25",
+    "name": "Running"
+  }
+]

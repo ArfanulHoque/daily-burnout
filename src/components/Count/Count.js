@@ -2,9 +2,16 @@ import React from "react";
 import "./Count.css";
 import profile from "../../images/20211007_075745.jpg";
 
-const Count = ({ count }) => {
+const Count = (props) => {
+  const { count } = props;
+
+  let total = 0;
+  for (const exercise of count) {
+    total = total + exercise.time;
+  }
+
   return (
-    <div className="count-content">
+    <div className="dashboard-content">
       <div className="dashboard">
         <div className="user-info">
           <div className="user">
@@ -61,13 +68,13 @@ const Count = ({ count }) => {
             <div className="exercise-time">
               <p>Exercise time</p>
               <p>
-                <span>0</span> secound
+                <span>{total}</span> seconds
               </p>
             </div>
             <div className="break-time">
               <p>Break time</p>
               <p>
-                <span>0</span> secound
+                <span>0</span> seconds
               </p>
             </div>
           </div>

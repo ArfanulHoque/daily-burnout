@@ -1,5 +1,9 @@
-.count-container {
+.dashboard-content {
   background-color: burlywood;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  margin-right: 20px;
 }
 .dashboard {
   padding: 20px;

@@ -14,7 +14,7 @@ const Exercise = () => {
   }, []);
 
   const handleAddToCount = (exercise) => {
-    console.log(exercise);
+    // console.log(exercise);
     const newCount = [...count, exercise];
     setCount(newCount);
   };
