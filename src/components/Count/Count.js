@@ -28,6 +28,9 @@ const Count = (props) => {
       console.log("add");
     }
   };
+  const sweetAlert = () => {
+    Swal.fire("Good job!", "Activity Completed!", "success");
+  };
 
   return (
     <div className="dashboard-content">
@@ -83,7 +86,7 @@ const Count = (props) => {
         </div>
         <div className="exercise-details">
           <h5>Exercise Details</h5>
-          <div className="exercise-box">
+          <di className="exercise-box">
             <div className="exercise-time">
               <p>Exercise time</p>
               <p>
@@ -96,8 +99,9 @@ const Count = (props) => {
                 <span>{breakTime}</span> seconds
               </p>
             </div>
-          </div>
-          <button>Activity Completed</button>
+          </di>
+
+          <button onClick={sweetAlert}>Activity Completed</button>
         </div>
       </div>
     </div>
