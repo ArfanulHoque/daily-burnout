@@ -64,7 +64,7 @@ const Count = (props) => {
         </div>
         <div className="exercise-details">
           <h5>Exercise Details</h5>
-          <div className="excercise-box">
+          <div className="exercise-box">
             <div className="exercise-time">
               <p>Exercise time</p>
               <p>

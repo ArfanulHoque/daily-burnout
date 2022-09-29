@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Activities from "../Activities/Activities";
 import Count from "../Count/Count";
+import Questions from "../Questions/Questions";
 import "./Exercise.css";
 
 const Exercise = () => {
@@ -35,6 +36,8 @@ const Exercise = () => {
           <Count count={count}></Count>
         </div>
       </div>
+      <hr />
+      <Questions></Questions>
     </div>
   );
 };
