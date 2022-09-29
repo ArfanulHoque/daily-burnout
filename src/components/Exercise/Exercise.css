@@ -9,14 +9,23 @@
   gap: 10px;
   margin: 100px 50px;
 }
-
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 700px) {
   .exercise-formations {
     grid-template-columns: repeat(2, 1fr);
+    margin: 0;
   }
 }
-@media screen and(max-width: 320px) {
+@media screen and (max-width: 320px) {
   .exercise-formations {
     grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+  .exercise-container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column-reverse;
   }
 }

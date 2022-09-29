@@ -7,14 +7,18 @@ const Activities = (props) => {
 
   return (
     <div className="activity-cart">
+      <img src={img} alt="" />
       <div className="activity-info">
-        <img src={img} alt="" />
-        <h3>{name}</h3>
-        <p>{description}</p>
+        <h3 className="activity-name">{name}</h3>
+        <p>
+          <small>{description}</small>
+        </p>
         <p>
           <small>For Age: {age}</small>
         </p>
-        <h5>Time required: {time}s</h5>
+        <p>
+          <strong>Time required: {time}s</strong>
+        </p>
       </div>
       <button
         onClick={() => handleAddToCount(exercise)}

@@ -36,7 +36,7 @@ const Exercise = () => {
           <Count count={count}></Count>
         </div>
       </div>
-      <hr />
+
       <Questions></Questions>
     </div>
   );

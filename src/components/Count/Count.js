@@ -46,19 +46,19 @@ const Count = (props) => {
           <div className="user-details">
             <div>
               <h4>
-                <b>75</b>kg
+                <b>70</b>kg
               </h4>
               <p>Weight</p>
             </div>
             <div>
               <h4>
-                <b>5.7</b>
+                <b>5.6</b>
               </h4>
               <p>Height</p>
             </div>
             <div>
               <h4>
-                <b>21</b>
+                <b>23</b>
               </h4>
               <p>Years</p>
             </div>
