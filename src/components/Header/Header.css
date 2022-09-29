@@ -1,12 +1,13 @@
-.navbar{
-    display: flex;
-    align-items: center;
-    color: burlywood;
-    background-color: black;
-
+.header {
+  display: flex;
+  align-items: center;
+  color: burlywood;
+  background-color: black;
+  height: 80px;
+  width: 100%;
 }
-.navbar img{
-    height: 40px;
-    margin-left: 5px;
-    margin-right: 8px;
+.header img {
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 8px;
 }

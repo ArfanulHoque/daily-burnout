@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Count.css";
 import profile from "../../images/20211007_075745.jpg";
+import Swal from "sweetalert2";
+import { addToDb, showToWeb } from "../../utilities/fakedb";
 
 const Count = (props) => {
   const { count } = props;
@@ -9,6 +11,23 @@ const Count = (props) => {
   for (const exercise of count) {
     total = total + exercise.time;
   }
+
+  const [breakTime, setBreakTime] = useState(0);
+  useEffect(() => {
+    const data = showToWeb();
+    if (data) {
+      setBreakTime(data);
+    } else {
+      setBreakTime(0);
+    }
+  }, []);
+  const addToBreakTime = (value) => {
+    setBreakTime(value);
+    const add = addToDb(value);
+    if (add) {
+      console.log("add");
+    }
+  };
 
   return (
     <div className="dashboard-content">
@@ -45,19 +64,19 @@ const Count = (props) => {
         <div className="break-div">
           <h5>Add A Break</h5>
           <div className="break">
-            <p>
+            <p onClick={() => addToBreakTime(10)}>
               <span>10</span>s
             </p>
-            <p>
+            <p onClick={() => addToBreakTime(20)}>
               <span>20</span>s
             </p>
-            <p>
+            <p onClick={() => addToBreakTime(30)}>
               <span>30</span>s
             </p>
-            <p>
+            <p onClick={() => addToBreakTime(40)}>
               <span>40</span>s
             </p>
-            <p>
+            <p onClick={() => addToBreakTime(50)}>
               <span>50</span>s
             </p>
           </div>
@@ -74,7 +93,7 @@ const Count = (props) => {
             <div className="break-time">
               <p>Break time</p>
               <p>
-                <span>0</span> seconds
+                <span>{breakTime}</span> seconds
               </p>
             </div>
           </div>
